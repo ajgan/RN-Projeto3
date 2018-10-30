@@ -1,0 +1,185 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(54.200000, -124.875224);
+		var myOptions = {
+			zoom: 6,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(50.863943, -121.506241);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 0",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.353009, -125.190338);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.575654, -126.423091);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.734246, -125.413426);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.510991, -126.497509);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.406705, -125.576116);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.574465, -122.464902);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.296052, -126.240225);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 7",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.353324, -125.940817);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.371358, -125.161864);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 9",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.902139, -122.415370);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.226835, -124.840579);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.720390, -125.547194);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 12",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.292987, -122.121877);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.250573, -124.979599);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.315803, -126.233076);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.710205, -120.777303);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.429445, -126.006436);
+		var img = new google.maps.MarkerImage('/Users/ajgan/anaconda/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "Centroid 17",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
